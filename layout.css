@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=REM:wght@200;400;500;600;700&display=swap');
+
+body {
+    background-color: rgba(47, 46, 46, 0.945);
+}
+
+.card {
+    width: 1400px;
+    height: 700px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(40, 39, 39, 0.945);
+    display: flex;
+    border-radius: 10px;
+}
+
+.left-side {
+    background-color: rgb(217, 118, 33);
+    width: 55%;
+    height: 100%;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    position: relative;
+
+}
+
+.righ-side {
+    width: 45%;
+    height: 100%;
+
+}
+
+.air-force-one {
+    position: absolute;
+    left: 7%;
+    top: 14%;
+    width: 600px;
+    transform: scaleX(-1);
+}
+
+.icons {
+    position: absolute;
+    bottom: 83px;
+    color: white;
+    font-size: 2rem;
+    padding-left: 283px;
+    width: 100%;
+
+}
+
+.fa-solid:hover {
+    cursor: pointer;
+    color: black;
+
+}
+
+.air-force-one:hover {
+    position: absolute;
+    left: 7%;
+    top: 14%;
+    width: 620px;
+    transform: scaleX(-1);
+}
+
+.first-line {
+    display: flex;
+    justify-content: flex-end;
+    padding: 50px;
+    align-items: center;
+}
+
+.heading-01 {
+    font-family: 'REM', sans-serif;
+    font-size: 2.1rem;
+    font-weight: 600;
+    color: rgb(217, 118, 33);
+    margin-right: 150px;
+}
+
+.icons-right-side {
+    font-size: 1.8rem;
+    color: rgb(244, 248, 248);
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+}
+
+.classic {
+    font-family: 'REM', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 62px 105px;
+    color: rgb(181, 180, 180);
+    margin-bottom: 10px;
+}
+
+.white-sneakers {
+    font-family: 'REM', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 600;
+
+    margin: 0 105px;
+    color: rgb(224, 223, 223)
+}
+
+.prices {
+    color: rgb(154, 153, 153);
+    font-family: 'REM', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin: 10px 105px;
+
+}
+
+.prices>span:nth-child(1) {
+    margin-right: 20px;
+    font-size: 2.2rem;
+    font-weight: 600;
+    color: rgb(224, 223, 223);
+
+}
+
+.prices>span:nth-child(2) {
+    cursor: pointer;
+}
+
+.prices>span:nth-child(2):hover {
+    margin-right: 20px;
+    font-size: 2.2rem;
+    font-weight: 600;
+    color: rgb(224, 223, 223);
+}
+
+.sizes {
+    font-family: 'REM', sans-serif;
+    font-weight: 200;
+    font-size: 1.3rem;
+    color: rgb(244, 248, 248);
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 105px;
+
+}
+
+.sizes>span:nth-child(1) {
+    font-weight: 500;
+}
+
+.sizes>:not(:first-child) {
+    cursor: pointer;
+
+}
+
+.sizes>:not(:first-child):hover {
+    font-weight: 500;
+    font-size: 1.7rem;
+}
+
+.color {
+    font-family: 'REM', sans-serif;
+    color: rgb(244, 248, 248);
+    margin: 30px 105px;
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+
+.color>span {
+    margin-right: 40px;
+}
+
+.fa-solid.fa-circle {
+    margin-right: 40px;
+}
+
+.fa-solid.fa-circle.black {
+    color: black;
+}
+
+.fa-solid.fa-circle.grey {
+    color: grey;
+}
+
+.buttons {
+    font-family: 'REM', sans-serif;
+    color: rgb(244, 248, 248);
+    margin: 70px 105px;
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+
+.buttons {
+    cursor: pointer;
+
+}
+
+.buttons:hover {
+    color: rgb(217, 118, 33);
+    font-size: 1.5rem;
+}
